@@ -1,0 +1,140 @@
+\documentclass[a4paper,fleqn]{cas-dc}
+
+%\documentclass[a4paper,fleqn,longmktitle]{cas-dc}
+
+
+%\usepackage[authoryear,longnamesfirst]{natbib}
+\usepackage[numbers,longnamesfirst]{natbib}
+\usepackage{comment}
+
+\begin{document}
+\let\WriteBookmarks\relax
+\def\floatpagepagefraction{1}
+\def\textpagefraction{.001}
+
+
+\title[mode = title]{Your Article}
+
+\tnotemark[1]
+
+% Funding
+\tnotetext[1]{This document is the results of the research project
+	funded by the National Science Foundation.}
+
+% Author
+\author[1]{author1}
+
+\address[1]{ADDRESS1}
+
+\begin{comment}
+\author[2,3]{author2}
+\address[2]{Sayahna Foundation, Jagathy, Trivandrum 695014, India}
+\address[3]{South China University of Technology, Guangzhou 510000, China}
+\cormark[cor1] 
+
+\cortext[cor1]{Corresponding author:***} 
+\end{comment}
+
+\begin{abstract}[S U M M A R Y]
+This is the abstract.This is the abstract.This is the abstract.This is the abstract.This is the abstract.This is the abstract.This is the abstract.This is the abstract.This is the abstract.This is the abstract.This is the abstract.This is the abstract.This is the abstract.This is the abstract.This is the abstract.This is the abstract.This is the abstract.This is the abstract.This is the abstract.
+\end{abstract}
+\begin{keywords}
+	keyword1 \sep keyword2 \sep keyword3 \sep keyword4
+\end{keywords}
+
+
+% Research highlights
+\begin{highlights}
+	\item highlights1
+	
+	\item highlights2
+		
+	\item highlights3
+\end{highlights}
+
+\maketitle
+
+\input{Introduction/Introduction}
+
+\input{Related work/Related work}
+
+\input{Proposed method/Proposed method}
+
+\input{Experiments/Experiments}
+
+\input{Conclusion/Conclusion}
+
+\section*{Acknowledgements}
+This work was supported by...
+
+% Numbered list
+% Use the style of numbering in square brackets.
+% If nothing is used, default style will be taken.
+%\begin{enumerate}[a)]
+%\item 
+%\item 
+%\item 
+%\end{enumerate}  
+
+% Unnumbered list
+%\begin{itemize}
+%\item 
+%\item 
+%\item 
+%\end{itemize}  
+
+% Description list
+%\begin{description}
+%\item[]
+%\item[] 
+%\item[] 
+%\end{description}  
+
+%% Figure
+%\begin{figure}[<options>]
+%	\centering
+%		\includegraphics[<options>]{}
+%	  \caption{}\label{fig1}
+%\end{figure}
+%
+%
+%\begin{table}[<options>]
+%\caption{}\label{tbl1}
+%\begin{tabular*}{\tblwidth}{@{}LL@{}}
+%\toprule
+%  &  \\ % Table header row
+%\midrule
+% & \\
+% & \\
+% & \\
+% & \\
+%\bottomrule
+%\end{tabular*}
+%\end{table}
+%
+%% Uncomment and use as the case may be
+%%\begin{theorem} 
+%%\end{theorem}
+%
+%% Uncomment and use as the case may be
+%%\begin{lemma} 
+%%\end{lemma}
+%
+%%% The Appendices part is started with the command \appendix;
+%%% appendix sections are then done as normal sections
+%%% \appendix
+%
+%\section{}\label{}
+%
+%% To print the credit authorship contribution details
+%\printcredits
+%
+
+%%% Loading bibliography style file
+\bibliographystyle{model1a-num-names}
+
+\bibliography{cas-refs}
+
+
+\end{document}
+
